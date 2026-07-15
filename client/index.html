@@ -1,13 +1,30 @@
-<!doctype html>
+<!doctype html> // This is an HTML5 document type declaration that tells the
+browser to render the page in standards mode.
 <html lang="en">
+  // This is the opening tag for the HTML document, specifying that the language
+  of the content is English.
   <head>
+    // This head contais metadata about the document, including its title and
+    links to stylesheets and scripts.
     <meta charset="UTF-8" />
+    // This allows the text to be displayed correctly in different languages and
+    character sets.
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    // this cotrols the little icon shown in the browser tab for the page, which
+    is set to an SVG image located at /favicon.svg. you can replace it later
+    with your Expense Tracker logo.
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>client</title>
+    // This meta tag ensures that the page is responsive and scales correctly on
+    different devices, such as mobile phones and tablets.
+    <title>Expense Tracker</title>
   </head>
   <body>
     <div id="root"></div>
+    //It is the DOM element where the entire React application is rendered. //
+    Think of an empty container where your React app will be rendered. The React
+    code will target this div and populate it with the app's content.
     <script type="module" src="/src/main.tsx"></script>
+    // It tells the browser to load and execute main.tsx, which starts the React
+    application.
   </body>
 </html>
